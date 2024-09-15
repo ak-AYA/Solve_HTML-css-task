@@ -1,0 +1,32 @@
+.over1{
+    height: 100px;
+    width: 100%;
+    background: orange;
+    overflow: visible;
+}
+.over2{
+    height: 100px;
+    width: 100%;
+    color: white;
+    background: black;
+    overflow: hidden;
+}
+.over3{
+    height:100px;
+    width: 100%;
+    background: blue;
+    overflow: scroll;
+}
+.over4{
+    height: 100px;
+    width: 100%;
+    background: purple;
+    overflow: auto;
+}
+.over5{
+    height: 100px;
+    width: 100%;
+    background: green;
+    overflow-x: auto; 
+      overflow-y: scroll;
+}

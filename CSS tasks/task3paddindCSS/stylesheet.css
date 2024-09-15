@@ -1,0 +1,6 @@
+.border{ 
+    border: 10px solid transparent;
+    border-image: url(2pic.png) 30 stretch;
+     text-align: center;
+      padding: 5px;
+}

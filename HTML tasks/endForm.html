@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body style="background-color: #8585ff;">
+
+    <header style="text-align: center;">
+        <h1>Amman Coding Academy survey Form</h1>
+        <p>Thank you for taking the time to help</p>
+    </header>
+
+    <form action="/submit" method="post" style="background-color: navy; height:100%; width:80%; text-align:left; padding-left: 10%; color: aliceblue; margin-left: 5%;">
+
+        <section>
+            <br>
+<label style="display:block">Name</label><br>
+<input type="text" style="width: 80%; height:20px;" name="name" placeholder="Enter Your name"><br>
+<br>
+<label style="display:block">Email</label><br>
+<input type="text" style="width: 80%; height:20px;" name="Email" placeholder="Enter Your email"><br>
+<br>
+<label style="display:block">Age (required)</label><br>
+<input type="number" style="width: 80%; height:20px;" name="Age" placeholder="Enter Your age" max="90" min="16"><br>
+<br>
+</section>
+
+<label style="display:block">
+    <p>How do you like my survey?</p>
+    <select name="How did you like my survey?" style="width: 80%; height:20px;">
+        <option id="11"  disabled selected hidden>How did you like my survey?</option>
+        <option id="1">impressive</option>
+        <option id="2">good</option>
+        <option id="3">not good</option>
+
+    </select>
+    <section>
+        <p>Would you recommend my pen to a friend?</p>
+        <input type="radio" id="1a" name="definitely">
+        <lable for id="1a">definitely</lable><br>
+        <input type="radio" id="2a" name="maybe">
+        <lable for id="2a">maybe</lable><br>
+        <input type="radio" id="3a" name="not sure" >
+        <lable for id="3a">not sure</lable>
+        
+    </section>
+
+  
+    <p>What is your favotite feature of codepen?</p>
+    <select name="How did you like my survey?" style="width: 80%; height:20px; display: block;">
+        <option id="11"  disabled selected hidden>select an option</option>
+        <option id="1s">development</option>
+        <option id="2s">debugging</option>
+        <option id="3s">graphical interface</option>
+        <option id="3s">editing</option>
+    </select>
+
+    <br>
+ 
+    
+    <div>
+    
+   <p>What would you like to see improved in my survey?</p>
+    
+        <input type="checkbox" id="c1" value="complexity" name="option1">
+        <lable for="c1">CSS needs to be more complex</lable><br>
+        <input type="checkbox" id="c2"  value="JS" name="option2">
+        <lable for="c2">Use some JavaScript</lable><br>
+        <input type="checkbox" id="c3"  value="nothing" name="option3">
+        <lable for="c3">No changes required</lable>
+    
+    </div>
+<br>
+        <p>any comments or sugesstions?</p>
+        <textarea  maxlength="500" placeholder="Comments" style="display:block; width:80%; height:100px;"></textarea>
+<br>
+
+<input type="button" value="Submit" onclick="send()" style="background-color: green; width:80%; height:30px; margin-bottom: 10%;">
+
+    </form>
+    
+</body>
+</html>

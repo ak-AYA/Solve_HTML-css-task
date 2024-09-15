@@ -1,0 +1,23 @@
+.blue{
+    background-color: blue;
+    color: white;
+    height: 50px;
+}
+
+.pink{
+    background-color: pink;
+    color: white;
+    height: 50px;
+}
+
+.orange{
+    background-color: orange;
+    color: white;
+    height: 50px;
+    margin-top: 15px;
+}
+
+#white{
+color: black;
+height: 50px;
+}

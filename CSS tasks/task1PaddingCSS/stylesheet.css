@@ -1,0 +1,12 @@
+
+.quality{
+    display: inline-flex;
+    border: 2px solid black;
+    border-style: double;
+    padding: 15px
+  
+}
+p::first-letter {
+    font-size: 200%; 
+      font-weight: bold;
+}

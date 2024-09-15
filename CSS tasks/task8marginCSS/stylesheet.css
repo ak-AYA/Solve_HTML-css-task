@@ -1,0 +1,16 @@
+#box {
+    padding: 20px;
+    margin: 50px;
+    display: flex; 
+    align-items: center;
+     justify-content: center; 
+     height: 100px; 
+     width: fit-content; 
+     border: 2px solid blue ; 
+     box-shadow: 5px -5px green, 7px -7px yellow, 10px -10px orange, 15px -15px red; padding: 10px;
+
+}
+
+p{
+    text-align: center;
+}

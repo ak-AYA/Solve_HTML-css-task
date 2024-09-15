@@ -1,0 +1,21 @@
+#none{
+    color: darkgreen;
+    font-weight: bold;
+}
+
+.first{
+    color: aqua;
+}
+
+#second{
+    color: green;
+    background-color: aqua;
+}
+
+p:nth-child(odd) {
+color: purple;
+}
+
+p:nth-child(even) {
+color: red;
+}

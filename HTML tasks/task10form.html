@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regestration</title>
+    <link rel="shortcut icon" type="x-icon" href="form.png">
+</head>
+<body>
+
+    <table border="2px solid black" style="height: 500px; width: 450px; border-spacing: 5px;">
+
+   <form method="post" action="submit">
+
+     <th colspan="2"><h3>Registration Form</h3></th>
+
+     <tr>
+        <td><label for="name">Enter Name</label></td>
+        <td><input type="text" id="name"></td>
+     </tr>
+     <tr>
+        <td><label for="password">Enter Password</label></td>
+        <td><input type="password" id="password"></td>
+     </tr>
+     <tr>
+        <td><label for="address">Enter Address</label></td>
+        <td><textarea id="address" style="height: 60px;"></textarea></td>
+     </tr>
+     <tr>
+        <td>Select Game</td>
+        <td>
+            <input type="checkbox" id="sport1" name="hockey" value="Hockey">
+            <label for="sport1"> Hockey</label><br>
+            <input type="checkbox" id="sport2" name="football" value="Football">
+            <label for="sport2"> Football</label><br>
+            <input type="checkbox" id="sport3" name="cricker" value="Cricker">
+            <label for="sport3"> Cricker</label><br>
+            <input type="checkbox" id="sport4" name="volleyball" value="Volleyball">
+            <label for="sport4"> Volleyball</label>
+        </td>
+     </tr>
+     <tr>
+        <td>Gender</td>
+        <td>
+            <input  name="gender" type="radio" id="male" value="Male" checked>
+            <label for="male"> Male</label>
+            <input name="gender" type="radio" id="female" value="Female">
+            <label for="female"> Female</label>
+        </td>
+     </tr>
+     <tr>
+        <td><label for="age">Select your age</label></td>
+        <td>
+            <select id="age" name="age">
+                <option value="choose" selected hidden disabled>Select</option>
+                <option value="teenager">16-19</option>
+                <option value="20s">20-29</option>
+                <option value="30s">30-39</option>
+                <option value="40s">40-49</option>
+                <option value="50s">50-59</option>
+                <option value="60s">60-69</option>
+            </select>
+        </td>
+     </tr>
+     <tr>
+        <td><label for="photo">Select Photo</label></td>
+        <td> <input type="file" id="photo" name="filename">
+        </td>
+     </tr>
+
+     <tr>
+        <td colspan="2"><input type="button" value="Click Me" style="width:100px; height: 50px;">
+        <input type="reset" value="Reset" style="width:100px; height: 50px;">
+        <input type="submit" value="Submit Form" style="width:100px; height: 50px;">
+     </tr>
+    </form>
+    </table>
+
+</body>
+</html>
