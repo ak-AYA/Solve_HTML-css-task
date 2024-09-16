@@ -1,0 +1,51 @@
+.nav{
+    display: flex; 
+    justify-content: space-between; 
+    align-content:center;
+    
+}
+
+span{
+    margin: 30px;
+}
+ div{
+    display: flex; 
+    justify-content: center; 
+    align-content:center; 
+ }
+
+
+
+.txt{
+
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+ text-align: center;
+    
+}
+#search{
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+   
+}
+
+
+.button{
+    height: 20px;
+width: 50;
+margin: 10px;
+border-radius: 3px;
+ 
+}
+
+
+.end{
+    display: flex; 
+    justify-content: space-between; 
+    align-content:center;
+background-color: lightgray;
+height: 20px;
+}

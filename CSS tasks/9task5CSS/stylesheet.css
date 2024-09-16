@@ -1,0 +1,61 @@
+.box{
+    border: 5px solid gold;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+  
+}
+
+p{
+text-align: center;
+    font-size: 50px;
+    padding:30px;
+    width: 300px;
+    height: 70px;
+    margin: 20px ;
+}
+.numbers1{
+    background-color: lightseagreen;
+
+}
+.numbers2{
+    background-color: cornflowerblue;
+
+}
+.numbers3{
+    background-color: purple;
+
+
+}
+.numbers4{
+    background-color: darkblue;
+}
+.numbers5{
+    background-color: orange;
+
+}
+.numbers6{
+    background-color: orangered;
+
+}
+.numbers7{
+    background-color: red;
+
+}
+.numbers8{
+    background-color: gray;
+
+}
+.numbers9{
+    background-color: seagreen;
+
+}
+.numbers10{
+    background-color: green;
+
+}
+.hidden{
+    opacity: 0;
+  height: 0;
+}

@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.full{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 100px minmax(500px, 1fr);
+    grid-template-rows: 30px minmax(200px,1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+  
+}
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+   
+}
+
+.Tleft{
+    display: flex;
+    justify-content:space-between;
+    align-content: flex-start;
+}
+.menu{
+    height:40px ;
+  
+}
+.logo{
+    height:25px ;
+    padding-top: 10px;
+}
+.search{
+    height: 40px;
+    width: 600px;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    align-items: center;
+}
+.Tright{
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-end;
+}
+.creat{
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+    border: hidden;
+    margin-right: 30px;
+}
+.me{
+    height:40px ;
+    width: 40PX;
+    background-color: lightsteelblue;
+    border: hidden;
+    border-radius: 40px;
+}
+.aside{
+    width: 50px;
+    padding-bottom: 40px;
+   margin-left: 30px;
+}
+
+.home{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 35px;
+}
+
+.short{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 35px;
+}
+
+.sub{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 35px;
+}
+
+.you{
+    height: 20px;
+    width: 20px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 35px;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    overflow:scroll;
+
+}
+
+.container{
+
+    display: flex;
+    width: 100%;
+    padding: 50px;
+
+}
+.video{
+    background-color: whitesmoke;
+    height: 180px;
+    border: 1px solid gray;
+    object-fit: cover;
+  
+}
+
+.profile{
+    height: 40px;
+    width: 40px;
+    border: 1px solid hidden;
+    border-radius: 30px;
+    margin: 5px;
+    
+}
+.views{
+    display: flex;
+ color: lightgray;
+padding-left: 50px;
+}
+

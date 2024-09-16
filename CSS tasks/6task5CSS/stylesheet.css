@@ -1,0 +1,75 @@
+.box{
+    border: 2px solid gold;
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+   
+}
+
+.numbers1{
+    background-color: lightseagreen;
+    align-self: flex-start;
+    padding: 5px;
+}
+.numbers2{
+    background-color: cornflowerblue;
+    align-self: flex-start;
+    font-size: 30px;
+    padding: 5px;
+    margin: 0;
+}
+.numbers3{
+    background-color: purple;
+    align-self: self-start;
+    font-size: 30px;
+    padding: 5px;
+    margin: 0;
+}
+.numbers4{
+    background-color: darkblue;
+    align-self: stretch;
+    font-size: 30px;
+    padding: 5px;
+    margin: 0;
+}
+.numbers5{
+    background-color: orange;
+    align-self: center;
+    padding: 5px;
+}
+.numbers6{
+    background-color: orangered;
+    align-self: flex-start;
+    font-size: 30px;
+    padding: 5px;
+    margin: 0;
+}
+.numbers7{
+    background-color: red;
+    align-self: flex-start;
+    font-size: 30px;
+    padding: 5px;
+    margin: 0;
+}
+.numbers8{
+    background-color: gray;
+    align-self: flex-start;
+    font-size: 30px;
+    padding: 5px;
+    margin: 0;
+}
+.numbers9{
+    background-color: seagreen;
+    align-self: flex-start;
+    font-size: 30px;
+    padding: 5px;
+    margin: 0;
+
+}
+.numbers10{
+    background-color: green;
+    align-self: flex-end;
+    font-size: 30px;
+    padding: 5px;
+    margin: 0;
+}
