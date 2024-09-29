@@ -1,0 +1,209 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.25rem;
+}
+ #container{
+    background-image: url(pexels-souvenirpixels-417074.jpg);
+    background-color: rgba(0, 0, 0, 0.689);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+.top{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.nav-ul li{
+    display: inline-block;
+
+}
+
+.header{
+    height: 550px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f4f4f4;
+}
+
+.propertyList{
+    border: 1px solid white;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+.name{
+    display: flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    font-size: 3em;
+    text-decoration: none;
+    color: seashell;
+    padding: 10px;
+    
+}
+.location{
+    height: 20px;
+    width: 20px;
+    border: 1px solid hidden;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.catigory{
+    width: 45%;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   margin-left: 20px;
+   margin-top: 10px;
+
+  
+}
+.stay{
+    padding: 10px;
+    border: 1px solid white;
+    background-color: rgba(242, 242, 242, 0.3);
+    border-radius: 15px;
+}
+.flights{
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 15px;
+}
+.car{
+    padding: 10px;
+    border: 1px solid white;
+ 
+    border-radius: 15px;
+}
+.attractions{
+    padding: 10px;
+    border: 1px solid white;
+   
+    border-radius: 15px;
+}
+.taxi{
+    padding: 10px;
+    border: 1px solid white;
+
+    border-radius: 15px;
+}
+.deal{
+    margin: 50px 10px;
+    height: 100px;
+    width: 500px;
+    padding: 10px;
+    
+}
+h2{
+
+    font-size: 50px;
+    line-height: 2.5rem;
+   margin: 15px 0px;
+}
+
+
+
+
+.search-container{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ /* align-content: center; */
+ height: 50px;
+ width: 90%;
+ margin: 100px;
+ background-color: rgb(219, 168, 0);
+border: 1px solid hidden;
+border-radius: 15px;
+padding-top: 0.3%;
+
+
+}
+
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+    height: 40px;
+    width: 25%;
+   
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    border-radius: 10px;
+    height: 40px;
+    background-color: blue;
+    color: white;
+    width: 15%;
+}
+
+.down-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    height: 40px;
+    border: 1px solid hidden;
+border-radius: 15px;
+}
+
+.options{
+    padding: 20px;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+.top-right {
+    position: absolute;
+    top: 8px;
+    line-height: 1rem;
+    left: 10px;
+    background-color: rgb(6, 97, 6);
+    border-radius: 3px;
+    padding: 5px;
+    color: whitesmoke;
+
+  }
+.option{
+    height: 350px;
+    border: 1px solid lightgray;
+    width: 100%;
+    border-radius: 10px;     
+    position: relative;
+    text-align: center;
+   
+}
+.privew{
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;  
+}
+
+.title{
+    margin: 15px;
+}
+.question{
+    border: 1px solid gainsboro;
+    height: 70px ;
+}

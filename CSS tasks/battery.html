@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .buttery{
+        display: flex;
+        height: 25px;
+        width: 80px;
+        background-color: aliceblue;
+        border: 2px solid black;
+        border-radius: 2px;
+        margin: 50%;
+        
+    }
+    .inside{
+        background-color: aliceblue;
+        animation: colorTransition 4s ease ;
+    }
+
+    @keyframes colorTransition {
+            0% {
+                background-color: red;
+                width: 5px;
+            }
+         
+           
+            
+            100% {
+                background-color: green;
+                width: 80px;
+            }
+        
+    }
+</style>
+<body>
+    
+        <div class="buttery">
+            <div class="inside"></div>
+        </div>
+
+</body>
+</html>

@@ -26,8 +26,8 @@
 .mix3{
     border: 2px;
     border-color:  green blue green green;
-   border-style: solid solid dotted solid;
-   width: 300px;
+    border-style: solid solid dotted solid;
+    width: 300px;
 }
 
 
